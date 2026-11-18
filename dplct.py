@@ -1,0 +1,6 @@
+n = [10,20,30,30,40,40,50]
+unique = []
+for num in n:
+    if num not in unique:
+        unique.append(num)
+print("Unique numbers are:", unique)
